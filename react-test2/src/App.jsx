@@ -1,29 +1,24 @@
-import { useState } from 'react'
-
+import { Routes, Route, Link } from 'react-router-dom'
+import Home from './Home.jsx'
+import About from './About.jsx'
+import Contact from './Contact.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <section id="center">
-        
-        <div>
-          <h5>First Tests</h5>
-          <p>
-            Testing
-          </p>
-        </div>
-        <button
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      <nav style={{ padding: '1rem', backgroundColor: '#f0f0f0', marginBottom: '1rem' }}>
+        <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
+        <Link to="/about" style={{ marginRight: '1rem' }}>About</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
 
-    
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
       <section id="spacer"></section>
     </>
   )
