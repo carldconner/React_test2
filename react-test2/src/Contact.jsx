@@ -4,9 +4,9 @@ function Contact() {
   return (
     <section id="center">
       <div>
-        <h5>Contact Us</h5>
+        <h5>Contact Page</h5>
         <p>
-          Get in touch with us through this contact page.
+          Welcome to the Contact Page.
         </p>
       </div>
     </section>
