@@ -22,26 +22,26 @@ function About() {
             <tr>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>Carl</td>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>Conner</td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}>56</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>57</td>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>Chinese</td>
             </tr>
             <tr>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>Sherri</td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>Conner</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>56</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>Italian</td>
             </tr>
             <tr>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>Sylvia</td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>Conner</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>21</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>Thai</td>
             </tr>
             <tr>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>David</td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}></td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>Conner</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>19</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>American</td>
             </tr>
           </tbody>
         </table>
